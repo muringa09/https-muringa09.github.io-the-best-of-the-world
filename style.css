@@ -1,0 +1,50 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background:url(header.jpg) no-repeat center center fixed; /* isso define a : imagem,repetição,posicionamento, 
+  e se vai fixar ou rolar junto com a página*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; /* isso aqui manda o background cobrir toda a página */
+}
+
+h1{
+	font-size: 3rem;/* rem define quantas vezes será maior do que a fonte raiz*/
+	color: #e05c5c;
+
+}
+
+hr{
+	border-color: #28a745;
+	border-width: 5px;
+	max-width: 70px;
+}
+
+.btn{
+	font-weight: 900;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+.btn-border{
+	border-radius: 50px;
+	padding: 2rem 3rem;
+	transition: 1s linear;
+}
+
+.btn-border:hover{
+	color: blue;
+	background-color: aqua;
+	border-color: aqua;
+	border-width: 8px;
+	
+}
+
+.buffer{
+	height: 10rem;
+	
+}
